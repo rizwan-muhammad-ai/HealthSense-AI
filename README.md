@@ -1,11 +1,5 @@
 <div align="center">
   <img src="ChatGPT_removebg.png" alt="HealthSense AI Logo" width="500"/>
-  
-  <p align="center">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
-    <img src="https://img.shields.io/badge/Groq-412991?style=for-the-badge&logo=ai&logoColor=white" />
-  </p>
 </div>
 
 <div align="center">
@@ -40,8 +34,8 @@ HealthSense AI is a cutting-edge virtual healthcare platform that leverages AI t
 <table>
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/rizwan-muhammad-ai"><img src="https://avatars.githubusercontent.com/u/your-github-id?v=4" width="120px;" alt="Muhammad Rizwan"/><br /><sub><b>Muhammad Rizwan</b><br></sub></a><br />
-      <a href="https://www.linkedin.com/in/rizwan-muhammad-ai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://www.linkedin.com/in/muhammad-rizwan-link/"><img src="https://avatars.githubusercontent.com/u/your-github-id?v=4" width="120px;" alt="Muhammad Rizwan"/><br /><sub><b>Muhammad Rizwan</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-rizwan-link/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
       <a href="https://github.com/rizwan-muhammad-ai"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
     </td>
   </tr>
@@ -50,12 +44,10 @@ HealthSense AI is a cutting-edge virtual healthcare platform that leverages AI t
 ## 📱 UI Interface
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rizwan-muhammad-ai/HealthSense-AI/main/screenshots/screenshot1.png" width="400" />
-  <img src="https://raw.githubusercontent.com/rizwan-muhammad-ai/HealthSense-AI/main/screenshots/screenshot2.png" width="400" />
-  <img src="https://raw.githubusercontent.com/rizwan-muhammad-ai/HealthSense-AI/main/screenshots/screenshot3.png" width="400" />
+  <img src="https://github.com/rizwan-muhammad-ai/HealthSense-AI/blob/main/Capture.PNG" width="400" />
+  <img src="https://github.com/rizwan-muhammad-ai/HealthSense-AI/blob/main/Capture1.PNG" />
+  <img src="https://github.com/rizwan-muhammad-ai/HealthSense-AI/blob/main/Capture3.PNG" width="400" />
 </div>
-
-*Note*: Screenshots are placeholders. Replace with actual images of your app’s UI by uploading them to a `screenshots/` folder in your repository.
 
 ## 🚀 Getting Started
 
