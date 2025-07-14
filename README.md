@@ -1,38 +1,63 @@
-# HealthSense AI 🩺
+<div align="center">
+  <img src="ChatGPT_removebg.png" alt="HealthSense AI Logo" width="500"/>
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
+    <img src="https://img.shields.io/badge/Groq-412991?style=for-the-badge&logo=ai&logoColor=white" />
+  </p>
+</div>
 
-![HealthSense AI Logo](ChatGPT_removebg.png)
+<div align="center">
+  <h3>🌟 Your AI-Powered Health Companion 🌟</h3>
+</div>
 
-**HealthSense AI** is an AI-powered web application built with Streamlit, designed to empower users with personalized health insights and tools. It provides intelligent health advice, nutrition planning, health metric tracking, and emergency resources, leveraging the Groq API for real-time AI responses and Plotly for interactive visualizations.
+## 🚀 About The Project
 
-## 🌟 Features
+HealthSense AI is a cutting-edge virtual healthcare platform that leverages AI to provide personalized health management. Built with Streamlit and powered by the Groq API, it offers intuitive tools for medical consultations, nutrition planning, health tracking, and emergency resources.
 
-- **AI Doctor Chat** 💬: Get instant medical advice from an AI-powered doctor, available 24/7. Describe symptoms or ask health-related questions for quick, reliable responses.
-- **Nutrition Planner** 🥗: Generate customized meal and exercise plans based on your age, weight, height, activity level, and health goals.
-- **Health Tracker** 📈: Log and visualize health metrics like weight, blood pressure, heart rate, and blood glucose with interactive charts.
-- **Emergency Services** 🚨: Access critical emergency contacts and guidelines for quick action in urgent situations.
-- **User-Friendly Interface**: Sleek, responsive design with a modern UI, powered by Streamlit and custom CSS.
+### ✨ Key Features
 
-## 🛠️ Technologies Used
+- 🤖 **AI Doctor Chat**: Get instant medical advice from an AI-powered doctor, available 24/7.
+- 📊 **Health Tracking**: Monitor weight, blood pressure, heart rate, and blood glucose with interactive visualizations.
+- 🥗 **Nutrition Planner**: Generate personalized meal and exercise plans based on your goals and profile.
+- 🏋️‍♂️ **BMI Calculation**: Calculate and track your Body Mass Index with health insights.
+- 📝 **PDF Reports**: Download consultation and nutrition plans as professional PDF reports.
+- 💬 **Interactive Interface**: User-friendly design with a modern, responsive UI.
+- 🚨 **Emergency Services**: Quick access to emergency contacts and guidelines.
 
-- **Streamlit**: For building the interactive web interface.
-- **Groq API**: Powers AI-driven responses for doctor chat and nutrition planning.
-- **Plotly**: Creates dynamic, interactive health data visualizations.
-- **FPDF**: Generates downloadable PDF reports for consultations and nutrition plans.
-- **Pandas**: Handles data management for health tracking.
-- **Python**: The core programming language.
+## 🛠️ Built With
 
-## 📋 Prerequisites
+- ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
+- ![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red?style=flat-square&logo=streamlit)
+- ![Groq](https://img.shields.io/badge/Groq-API-green?style=flat-square&logo=ai)
+- ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly)
+- ![FPDF](https://img.shields.io/badge/FPDF-PDF%20Generation-orange?style=flat-square)
+- ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas)
 
-To run or deploy HealthSense AI, you need:
-- Python 3.8 or higher
-- A [Groq API key](https://x.ai/api) for AI functionality
-- Git installed for version control
-- A GitHub account for repository management
-- A [Streamlit Community Cloud](https://streamlit.io/cloud) account for deployment
+## 👨‍💻 Meet The Developer
 
-## 🚀 Installation
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/rizwan-muhammad-ai"><img src="https://avatars.githubusercontent.com/u/your-github-id?v=4" width="120px;" alt="Muhammad Rizwan"/><br /><sub><b>Muhammad Rizwan</b><br></sub></a><br />
+      <a href="https://www.linkedin.com/in/rizwan-muhammad-ai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
+      <a href="https://github.com/rizwan-muhammad-ai"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+    </td>
+  </tr>
+</table>
 
-Follow these steps to set up HealthSense AI locally:
+## 📱 UI Interface
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rizwan-muhammad-ai/HealthSense-AI/main/screenshots/screenshot1.png" width="400" />
+  <img src="https://raw.githubusercontent.com/rizwan-muhammad-ai/HealthSense-AI/main/screenshots/screenshot2.png" width="400" />
+  <img src="https://raw.githubusercontent.com/rizwan-muhammad-ai/HealthSense-AI/main/screenshots/screenshot3.png" width="400" />
+</div>
+
+*Note*: Screenshots are placeholders. Replace with actual images of your app’s UI by uploading them to a `screenshots/` folder in your repository.
+
+## 🚀 Getting Started
 
 1. **Clone the Repository**:
    ```bash
@@ -40,17 +65,11 @@ Follow these steps to set up HealthSense AI locally:
    cd HealthSense-AI
    ```
 
-2. **Create a Virtual Environment**:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install Dependencies**:
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-   The `requirements.txt` includes:
+   Ensure `requirements.txt` contains:
    ```
    streamlit
    groq
@@ -60,15 +79,15 @@ Follow these steps to set up HealthSense AI locally:
    pandas
    ```
 
-4. **Set Up Secrets**:
+3. **Set Up Secrets**:
    - Create a `secrets.toml` file in the project root:
      ```toml
      [secrets]
      groq_api_key = "your-groq-api-key-here"
      ```
-   - Replace `"your-groq-api-key-here"` with your actual Groq API key.
+   - Obtain your Groq API key from [x.ai/api](https://x.ai/api).
 
-5. **Run the App Locally**:
+4. **Run the Application**:
    ```bash
    streamlit run app.py
    ```
@@ -76,68 +95,51 @@ Follow these steps to set up HealthSense AI locally:
 
 ## ☁️ Deployment on Streamlit Community Cloud
 
-To deploy HealthSense AI on Streamlit Community Cloud:
-
 1. **Push to GitHub**:
-   - Ensure your project files (`app.py`, `requirements.txt`, `README.md`, `ChatGPT_removebg.png`, `.gitignore`) are committed and pushed:
-     ```bash
-     git add .
-     git commit -m "Update project files"
-     git push origin main
-     ```
+   ```bash
+   git add .
+   git commit -m "Update project files"
+   git push origin main
+   ```
 
 2. **Create a Streamlit App**:
    - Sign in to [Streamlit Community Cloud](https://streamlit.io/cloud) with your GitHub account.
-   - Click **New app**, select the `rizwan-muhammad-ai/HealthSense-AI` repository, and choose the `main` branch.
+   - Click **New app**, select `rizwan-muhammad-ai/HealthSense-AI`, and choose the `main` branch.
    - Set the main Python file to `app.py`.
 
 3. **Add Secrets**:
-   - In **Advanced settings**, add your `secrets.toml` content:
+   - In **Advanced settings**, add:
      ```toml
      [secrets]
      groq_api_key = "your-groq-api-key-here"
      ```
 
 4. **Deploy**:
-   - Click **Deploy**. Once complete, access your app at the provided URL (e.g., `https://<your-app-name>.streamlit.app`).
-
-5. **Troubleshooting**:
-   - Check deployment logs for errors (e.g., missing dependencies or image file).
-   - Ensure `ChatGPT_removebg.png` is in the repository root and referenced correctly in `app.py`.
-
-## 🖥️ Usage
-
-- **Navigate**: Use the sidebar menu to access Home, Doctor Chat, Nutrition, Health Tracker, Emergency, and About pages.
-- **Doctor Chat**: Ask health questions or select common symptoms for AI-driven advice.
-- **Nutrition Planner**: Input personal details to generate tailored meal and exercise plans, downloadable as PDFs.
-- **Health Tracker**: Log health metrics and view trends in interactive Plotly charts.
-- **Emergency**: Find emergency contacts and guidelines for immediate action.
+   - Click **Deploy** to launch your app. Access it via the provided URL (e.g., `https://healthsense-ai.streamlit.app`).
 
 ## 🔒 Privacy and Data Security
 
-- **Local Storage**: Health data and chat history are stored in your browser's session, not on servers, unless saved or downloaded.
-- **API Security**: The Groq API processes queries without storing personal data.
-- **Confidentiality**: We prioritize your privacy and handle data with care.
+- **Local Storage**: Health data and chat history are stored in your browser’s session.
+- **API Security**: The Groq API processes queries without retaining personal data.
+- **Confidentiality**: Your privacy is our priority, with no server-side storage unless explicitly saved.
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make changes and commit (`git commit -m "Add your feature"`).
+2. Create a feature branch (`git checkout -b feature/your-feature`).
+3. Commit changes (`git commit -m "Add your feature"`).
 4. Push to your fork (`git push origin feature/your-feature`).
-5. Create a pull request on GitHub.
+5. Open a pull request.
 
 ## ⚠️ Disclaimer
 
-HealthSense AI is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for medical concerns. Use this app for informational purposes only.
-
-## 👨‍💻 Developer
-
-Developed by **Muhammad Rizwan**. Connect with me on [GitHub](https://github.com/rizwan-muhammad-ai) or reach out for feedback and collaboration.
+HealthSense AI is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for medical concerns.
 
 ## 📬 Contact
 
-For questions or support, open an issue on GitHub or contact the developer at [your.email@example.com](mailto:your.email@example.com).
+For feedback or support, open an issue on GitHub or email [rizwan@example.com](mailto:rizwan@example.com).
 
----
+<div align="center">
+  <p>Made with ❤️ by Muhammad Rizwan</p>
+  <p>© 2025 HealthSense AI. All rights reserved.</p>
+</div>
