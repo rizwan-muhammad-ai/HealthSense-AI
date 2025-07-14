@@ -1,15 +1,3 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/devtayyabsajjad/Sehat-Connect/refs/heads/main/logo-removebg--preview.png" alt="Sehat Connect Logo" width="500"/>
-  
-  <p align="center">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
-    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  </p>
-</div>
-
-<div align="center">
-  <h3>🌟 Your Virtual Doctor & Nutritionist powered by AI 🌟</h3>
 </div># HealthSense AI
 
 ![HealthSense AI Logo](ChatGPT_removebg.png)
